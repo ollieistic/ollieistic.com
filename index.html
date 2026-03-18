@@ -2,40 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="ollieistic's very cool website">
-    <meta name="keywords" content="portfolio, ollieistic">
-    <meta name="author" content="ollieistic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ollieistic</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="/assets/favicon.png">
 </head>
 <body>
-    <div class="hero">
-        <img src="/assets/logo.png">
-        <h1>ollieistic</h1>
+    <div class="profile-background">
+        <div class="profile">
+            <img src="/assets/logo.png" alt="Profile picture">
+            <div class="social-container">
+                <a class="social-link" href="https://github.com/ollieistic" target="_blank">
+                    <img class="social-icon" src="/assets/icons/github.svg" target="_blank">
+                </a>
+                <a class="social-link" href="https://bsky.app/profile/ollieistic.com" target="_blank">
+                    <img class="social-icon" src="/assets/icons/bluesky.svg" target="_blank">
+                </a>
+                <a class="social-link" href="mailto:contact@ollieistic.com" target="_blank">
+                    <img class="social-icon" src="/assets/icons/email.svg" target="_blank">
+                </a>
+                <a class="social-link" href="https://matrix.to/#/@ollieistic:matrix.org" target="_blank">
+                    <img class="social-icon" src="/assets/icons/matrix.svg" target="_blank">
+                </a>
+                <a class="social-link" href="xmpp:ollieistic@xmpp.earth" target="_blank">
+                    <img class="social-icon" src="/assets/icons/xmpp.svg" target="_blank">
+                </a>
+            </div>
+            <p></p>
+        </div>
     </div>
-
-    <div class="about">
-        <h2><u>about me</u></h2>
-        <p><b>from sweden and i want to work in cybersecurity</b></p>
-        <p>i like linux (nixos is superior)</p>
+    <div class="introduction">
+        <h2>Hi, I am Ollieistic 👋</h2>
+        <h4>I am interested in:</h4>
     </div>
-
-    <div class="privacy">
-        <h2><u>privacy</u></h2>
-        <p><b>humans have lost their right to privacy</b></p>
-        <p>replace your software with FOSS</p>
-        <p>use open-source and privacy-respecting operating systems</p>
-    </div>
-
-    <div class="socials">
-        <h2><u>socials</u></h2>
-        <a href="https://github.com/ollieistic" class="social-icon" target="_blank" aria-label="GitHub"><img src="/assets/icons/github.svg" alt="GitHub"></a>
-        <a href="https://bsky.app/profile/ollieistic.com" class="social-icon" target="_blank" aria-label="Bluesky"><img src="/assets/icons/bluesky.svg" alt="Bluesky"></a>
-        <a href="https://youtube.com/@ollieistic" class="social-icon" target="_blank" aria-label="YouTube"><img src="/assets/icons/youtube.svg" alt="YouTube"></a>
-        <a href="https://x.com/ollieistic" class="social-icon" target="_blank" aria-label="X"><img src="/assets/icons/x.svg" alt="X"></a>
-        <!-- <a href="https://discord.gg/invite" class="social-icon" target="_blank" aria-label="Discord"><img src="/assets/icons/discord.svg" alt="Discord"></a> -->
+    <div class="interests-container">
+        <div class="interest">
+            <h2 class="interest-title">Digital Privacy</h2>
+            <p>
+                I care about my online privacy because big tech corporations harvest as much data as possible from their users to sell to data brokers and advertisers. 
+                Governments also want to monitor their people so they can block access to parts of the internet, unless you verify your age with ID (censorship).
+                <br><br>
+                Learn more: <br>
+                <!--<a href="/post/privacy.html">Your digital privacy</a> <br>-->
+                <a href="mullvad.net/en/why-privacy-matters">Why privacy matters (mullvad.net)</a>
+            </p>
+        </div>
+        <div class="interest">
+            <h2 class="interest-title">Programming & Homelabbing</h2>
+            <p>
+                Since I was around 11 years old I started with slowly learning LuaU and building games on Roblox.
+                When I was around 13 years old I decided to start learning Python and built a few Python projects. 
+                Now I am improving my Python knowledge and once I feel finished with that I want to learn C.
+                <br><br>
+                I recently got into homelabbing, and currently only have a small Jellyfin media server, but I am looking to upgrade to better hardware with more storage.
+            </p>
+        </div>
     </div>
 </body>
 </html>
